@@ -11,3 +11,6 @@ fileGrep = '-not -iname "*.avi" -not -iname "*.mkv" -not -iname "*.rmvb" -not -i
 command = 'sudo find ' + dirPath + ' -type f -size -100000 ' + fileGrep + ' -exec rm -fv {} \;';
 
 os.system(command);
+
+command = 'sudo find ' + dirPath + ' -type d -empty -exec rmdir {} \;';
+os.system(command);

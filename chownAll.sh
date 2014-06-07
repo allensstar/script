@@ -3,3 +3,4 @@ python chown.py ~/share/TV/
 python chown.py ~/share/movie/
 python chown.py ~/share/Video/
 python chown.py ~/share/cartoon/
+python chown.py ~/share/game/
